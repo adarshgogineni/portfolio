@@ -153,8 +153,8 @@ const Project = ({ imgSrc, altText, projectLink, title, description }) => (
   <a href={projectLink} target="_blank" rel="noopener noreferrer" className="project">
     <Image className="project-image rounded-lg shadow-2xl" src={imgSrc} alt={altText} width={600} height={600} />
     <div className="layer project-content">
-      <h3 className="text-3xl p-4">{title}</h3>
-      <p className="text-reg">{description}</p>
+      <h3 className="text-xl p-4">{title}</h3>
+      <p className="text-sm">{description}</p>
     </div>
   </a>
 );
